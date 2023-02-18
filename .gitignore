@@ -1,0 +1,23 @@
+node_modules/
+.expo/
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+data/
+web-build/
+packages/*/node_modules/
+
+# macOS
+.DS_Store
+
+# @generated: @expo/electron-adapter@0.0.55
+/.expo/*
+# Expo Web
+/web-build/*
+# electron-webpack
+/dist
+# @end @expo/electron-adapter

@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "react-native-practice",
+    "slug": "react-native-practice",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "node_modules/@react-native-practice/core/assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "node_modules/@react-native-practice/core/assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "node_modules/@react-native-practice/core/assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.blacktokki.reactnativepractice"
+    },
+    "web": {
+      "favicon": "node_modules/@react-native-practice/core/assets/images/favicon.png"
+    }
+  }
+}
