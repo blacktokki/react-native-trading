@@ -9,29 +9,29 @@ export default {
     screens:{
         SearchScreen:{
             stacks: {defaultStack:SearchScreen},
-            title: 'Tab Search Title',
+            title: 'Search',
             url: ''
         },
         BackTradeScreen:{
             stacks: {defaultStack:BackTradeScreen},
-            title: 'Tab BackTrade Title',
+            title: 'BackTrade',
             url: 'backtrade'
         },
         PortfolioScreen:{
             stacks: {defaultStack:PortfolioScreen},
-            title: 'Tab Portfolio Title',
+            title: 'Portfolio',
             url: 'portfolio',
             params: {buys: 'asd', sells: 'asd'}
         },
         DetailScreen:{
             stacks: {defaultStack:DetailScreen},
-            title: 'Tab Detail Title',
+            title: 'Detail',
             url: 'detail/:full_code',
             params: {full_code: 'asd'}
         },
         UtilScreen:{
             stacks: {defaultStack:UtilScreen},
-            title: 'Tab Util Title',
+            title: 'Util',
             url: 'util',
         },
     }
